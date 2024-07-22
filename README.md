@@ -31,5 +31,3 @@ Atom
 Changelog
 0.0.1 (2024-07-22)
 Compatible with Redmine 6.0.x, 5.1.x, 5.0.x, 4.2.x, 4.1.x, 4.0.x.
-
-Powered by Redmine © 2006-2023 Jean-Philippe Lang
