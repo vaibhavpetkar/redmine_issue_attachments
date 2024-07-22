@@ -16,14 +16,14 @@ Requirements
 Installation
 1. Download the Plugin
  Navigate to the Redmine `plugins` directory and clone the plugin repository:
-   cd /path/to/your/redmine/plugins
-   git clone https://github.com/vaibhavpetkar/redmine_issue_attachments.git
-bundle install
-bundle exec rake redmine:plugins:migrate NAME=redmine_issue_attachments
+2. cd /path/to/your/redmine/plugins
+3. git clone https://github.com/vaibhavpetkar/redmine_issue_attachments.git
+4. bundle install
+5.bundle exec rake redmine:plugins:migrate NAME=redmine_issue_attachments
 //or//
 bundle exec rake redmine:plugins:migrate NAME=redmine_issue_attachments RAILS_ENV=production
 
-bundle exec rake tmp:cache:clear
+6.bundle exec rake tmp:cache:clear
 
 sudo systemctl restart redmine
 
